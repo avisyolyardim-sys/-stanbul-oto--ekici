@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Gece oto kurtarma</title>
+  <desc id="desc">Gece yolda kalan aracı kurtaran oto çekici sahnesi.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102131"/>
+      <stop offset=".58" stop-color="#253c52"/>
+      <stop offset="1" stop-color="#f2b705"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" x2="1">
+      <stop offset="0" stop-color="#ff4a4a"/>
+      <stop offset="1" stop-color="#b81725"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#08131d" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="900" height="620" rx="28" fill="url(#bg)"/>
+  <circle cx="740" cy="112" r="54" fill="#ffe9a5" opacity=".92"/>
+  <path d="M0 420c120-55 220-62 336-32 116 31 228 27 338-18 89-36 160-35 226-12v262H0z" fill="#0e1824" opacity=".55"/>
+  <path d="M80 493h740" stroke="#f7f0df" stroke-width="16" stroke-linecap="round" opacity=".25"/>
+  <path d="M124 528h652" stroke="#07111b" stroke-width="22" stroke-linecap="round" opacity=".38"/>
+  <g opacity=".42">
+    <rect x="82" y="135" width="98" height="70" rx="10" fill="#fff"/>
+    <rect x="220" y="90" width="72" height="110" rx="10" fill="#fff"/>
+    <rect x="704" y="245" width="92" height="64" rx="10" fill="#fff"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M225 410l322-76 54 33-338 92c-40 10-62-36-38-49z" fill="#182332"/>
+    <path d="M280 402l258-60 29 18-275 74c-27 7-39-24-12-32z" fill="#ffc531"/>
+    <path d="M548 256h110c30 0 56 17 69 44l38 79h42c24 0 44 20 44 44v39H505V302c0-25 19-46 43-46z" fill="url(#red)"/>
+    <path d="M574 286h82c18 0 34 10 42 27l22 45H574z" fill="#c9eff7"/>
+    <path d="M494 292h75v34h-75z" fill="#182332"/>
+    <path d="M438 224h58v70h-58z" fill="#182332"/>
+    <path d="M330 217h130v32H330z" fill="#182332"/>
+    <path d="M336 236l-72 149" stroke="#182332" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="610" cy="465" r="56" fill="#07111b"/>
+    <circle cx="610" cy="465" r="25" fill="#f7f0df"/>
+    <circle cx="780" cy="465" r="56" fill="#07111b"/>
+    <circle cx="780" cy="465" r="25" fill="#f7f0df"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M96 422l42-62c10-15 27-24 45-24h92c20 0 38 11 48 29l28 50 32 8c18 5 31 21 31 40v20H73v-27c0-15 9-29 23-34z" fill="#118577"/>
+    <path d="M156 364h61v55h-94l24-41c3-8 6-14 9-14z" fill="#c9eff7"/>
+    <path d="M238 364h38c11 0 21 6 27 16l21 39h-86z" fill="#c9eff7"/>
+    <circle cx="159" cy="485" r="44" fill="#07111b"/>
+    <circle cx="159" cy="485" r="20" fill="#f7f0df"/>
+    <circle cx="326" cy="485" r="44" fill="#07111b"/>
+    <circle cx="326" cy="485" r="20" fill="#f7f0df"/>
+  </g>
+  <path d="M702 402h136" stroke="#ffe38a" stroke-width="16" stroke-linecap="round" opacity=".78"/>
+  <path d="M618 395h82" stroke="#ffefe0" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+</svg>
